@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilo.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/One-Piece-Logo.png" alt="One Piece Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Mugiwara</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="luffy" data-name="Monkey D. Luffy" data-description="Monkey D. Luffy, é um personagem fictício e o protagonista da franquia One Piece criada por Eiichiro Oda. Ele é apresentado como um jovem cujo corpo ganha as propriedades de borracha após ter comido a Gomu-Gomu no Mi, uma das várias frutas amaldiçoadas conhecidas como Akuma no Mi ou Frutas do Diabo">
+                    <img src="./src/imagens/luffy cartaz.jpg" alt="Cartaz do Luffy">
+                </li>
+                <li class="personagem" id="zoro" data-name="Roronoa Zoro" data-description="Roronoa Zoro, é um personagem fictício da série One Piece criada por Eiichiro Oda. Na história, Zoro era um caçador de piratas que por fim se torna um quando é convencido pelo protagonista Monkey D. Luffy a ser o primeiro membro de sua tripulação, os Piratas do Chapéu de Palha">
+                    <img src="./src/imagens/zoro cartaz.jpg" alt="Cartaz do Zoro">
+                </li>
+                <li class="personagem" id="nami" data-name="Nami" data-description="Nami, é uma personagem fictícia do mangá e anime One Piece criada por Eiichiro Oda. Nami é introduzida na narrativa como uma aliada oportunista do protagonista Monkey D. Luffy mas que possui motivos nobres por trás de suas ações ambíguas.">
+                    <img src="./src/imagens/nami cartaz.jpg" alt="Cartaz do Nami">
+                </li>
+                <li class="personagem" id="usopp" data-name="God Ussop" data-description="Usopp é um personagem fictício da série em mangá One Piece criada por Eiichiro Oda. Ele faz parte do grupo principal, os Piratas do Chapéu de Palha, onde atua primariamente como atirador mas quando necessário cumpre outras posições como inventor, escultor e pintor.">
+                    <img src="./src/imagens/usopp cartaz.jpg" alt="Cartaz do Usopp">
+                </li>
+                <li class="personagem" id="sanji" data-name="Vinsmoker Sanji" data-description="Vinsmoke Sanji é um personagem criado por Eiichiro Oda para o seu mangá e anime One Piece. Ele é introduzido ainda na primeira saga da história como um cozinheiro do restaurante-navio Baratie e depois passa a trabalhar para o capitão Monkey D. Luffy no seu bando dos Piratas do Chapéu de Palha.">
+                    <img src="./src/imagens/sanji cartaz.jpg" alt="Cartaz do Sanji">
+                </li>
+                <li class="personagem" id="chopper" data-name="Tony Tony Chopper" data-description="Tony Tony Chopper, também conhecido como Amante de Algodão Doce, é um personagem fictício da série de mangá One Piece criada por Eiichiro Oda. Ele é o sexto membro a se juntar e o médico dos Piratas do Chapéu de Palha. Chopper é freqüentemente apresentado em mercadorias oficiais, servindo como mascote da série">
+                    <img src="./src/imagens/chopper cartaz.jpg" alt="Cartaz do Chopper">
+                </li>
+                <li class="personagem" id="robin" data-name="Nico Robin" data-description="Nico Robin é uma personagem fictícia da obra japonesa One Piece de Eiichiro Oda. Inicialmente uma antagonista, ela depois convence o capitão Monkey D. Luffy a deixá-la entrar no seu bando dos Piratas do Chapéu de Palha.">
+                    <img src="./src/imagens/robin cartaz.jpg" alt="Cartaz do Robin">
+                </li>
+                <li class="personagem" id="franky" data-name="Franky" data-description="Franky é o carpinteiro do Bando do Chapéu de Palha. É um cyborg, tem 36 anos e teve sua primeira aparição na obra no arco de Water 7. Antes de conhecer Luffy, ele era o líder da Família Franky, um grupo que desmantelava navios. Viviam numa casa fora da cidade e tinham uma reputação ruim com as pessoas.">
+                    <img src="./src/imagens/franky cartaz.jpg" alt="Cartaz do Franky">
+                </li>
+                <li class="personagem" id="brook" data-name="Brook" data-description="Brook é um esqueleto músico que foi encontrado por Luffy e sua tripulação, em uma, embarcação fantasma, ingressando ao bando de Luffy. Brook é possuidor dos poderes da , Yomi Yomi no Mi (Fruta do Reviver), permitindo que ele possa retornar a vida, após a morte. Porém como ele demorou para encontrar seu corpo, enquanto vagava pelos mares na forma de alma, e quando o encontrou, já não estava mais inteiro.">
+                    <img src="./src/imagens/brook cartaz.jpg" alt="Cartaz do brook">
+                </li>
+                <li class="personagem" id="jinbei" data-name="Jinbei" data-description="Jinbei é um homem-peixe de grande orgulho e honra. Ele é conhecido pelo Governo Mundial como um pirata que odeia piratas, possivelmente devido à ação dos piratas na Ilha dos Homens-Peixe, o sequestro de homens-peixes e homens-peixe para vendê-los como escravos.">
+                    <img src="./src/imagens/jinbei cartaz.jpg" alt="Cartaz do Jinbei">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-luffy.jpg" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Monkey D. Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Monkey D. Luffy, é um personagem fictício e o protagonista da franquia
+                    One Piece criada por Eiichiro Oda. Ele é apresentado como um jovem cujo corpo ganha as propriedades
+                    de borracha após ter comido a Gomu-Gomu no Mi, uma das várias frutas amaldiçoadas conhecidas como
+                    Akuma no Mi ou Frutas do Diabo</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/JS/index.js"></script>
+</body>
+
+</html>
